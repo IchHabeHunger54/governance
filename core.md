@@ -1,12 +1,12 @@
 # Governance of the NeoForged project
 
-The NeoForged project is split between [GitHub](https://github.com/NeoForged) and [Discord](https://discord.neoforged.net). It is a community of volunteers, maintaining a free and open source ecosystem of modifications to the Minecraft game.
+The NeoForged Project ("the Project") is a community of volunteers, maintaining a free and open source ecosystem of modifications to the Minecraft game. It is split between [GitHub](https://github.com/NeoForged) and [Discord](https://discord.neoforged.net).
 
-All contributors and team members are here for fun - our goal is to provide joy to the community, and to ourselves.
+All contributors and team members are here for fun. Our goal is to provide joy to the community, and to ourselves.
 
-We are here because it is fun, so this document ensures that the Project doesn't become so bureaucratic or so much of a chore that the fun is removed for anybody.
+This document serves to ensure that the Project doesn't become so bureaucratic or so much of a chore that the fun is removed for anybody.
 
-### What this document is
+## What This Document Is
 
 This document is:
 
@@ -17,7 +17,7 @@ This document is built on the fundamental principle of "people generally want to
 
 The core ethic is "people over processes", so this document is intentionally light on processes - situations that come up are rarely one-size-fits-all, and should be treated on a case by case basis, with the best process to fit the person.
 
-### What this document is not
+## What This Document Is Not
 
 This document is not:
 
@@ -29,74 +29,76 @@ The Code of Conduct of the project is taken to be the content of [the Contributo
 
 Conflict resolution is a duty split between the Moderators and Steering Council; the former for interpersonal disputes in and with the community, and the latter for development-related disputes in the Project itself. Either team may wish to append a section to this document, but currently, this document is not conflict resolution.
 
-## Definitions
+## Subprojects
 
-Following are some core definitions that will be referred to in the later sections of the document.
+A subproject is a part of the development effort of the NeoForged project. A subproject is commonly organized under:
 
-### The Project
+- A GitHub repository
+- A collection of GitHub repositories
+- A specific branch, or specific branches, in one or multiple existing GitHub repositories
+- A specialized Discord channel
+- Any combination of the above
 
-"The Project" refers to The NeoForged project, with a presence on both GitHub and Discord, as noted at the start of this document. It does not refer to any specific repository or subproject.
+The most important subproject of the Project is NeoForge, which is the main product shipped to end users and maintained by the Maintainers team. Other subprojects may be managed by either a subteam or the Maintainers team.
 
-### Subprojects
-
-Subprojects are large tasks that the Project itself is undergoing.
-
-These may be:
-
-* Repositories under the Project's GitHub.
-* Large, multi-repository tasks that are being undertaken (ie. updating the API to a new version of the Game).
-* Smaller, more targetted tasks that are being undertaken (ie. refactoring the Modloader or API to remove or replace or rework a feature).
-
-### Teams
-
-The Project is split into three teams.
+## Teams
 
 A team is a group of people with similar goals, and equal weighting in most decision making - with some exceptions, which will be explored later.
 
-You may [apply to join some teams](https://links.neoforged.net/apply), but some require appointment from within an existing team, or further voting after application.
+The Project consists of three main teams and several subteams. Members of a main team are not necessarily members of a subteam, and vice versa. Any person who is a member of a main team or a subteam gains equal voting rights in all team-wide decisions, regardless of the number of teams they are in.
 
-#### Steering Council
+Some teams can be joined via [application](https://links.neoforged.net/apply), while others require being appointed by an existing team member.
 
-The Steering Council is the overall management and oversight of the Project.
+### Steering Council
 
-They “steer” the project to keep it aligned with the long-term vision, hence its secondary name of Vision Team.
+The Steering Council ("the Council") is the overall management and oversight committee of the Project. They “steer” the project to keep it aligned with the long-term vision, hence its secondary name of Vision Team.
+
+The Council also serves double duty as a mediator for disagreements between other teams. These shall be resolved by discussion, rather than by unanimous applications of the rules, so this is not in the purview of this document.
+
+However, the Council does not have all-encompassing powers. They are the avenue of last resort, and the vast majority of decisions should be made by the team in charge, not by the Steering Council. The Council has these powers to resolve the 1% of exceptional situations, not the 99%.
 
 The Council has at all times an odd number of active members, such that stalemates are not possible.
 
 A member may choose to become inactive and appoint another in their place until they return.
 
-At least one member of the Council is promoted from other teams via an annual internal vote, to ensure that the Council always has fresh insight from a new team member with a different view on situations, and thus does not stagnate over time.
+The Council is elected annually from among the team members. This process is outlined in the [Voting document](voting.md).
 
-Once a year, an internal voting process inspired by [the process implemented in the Python ecosystem](https://peps.python.org/pep-0013/) will determine the members that will be promoted to the Steering Council via the [Helios voting system](https://heliosvoting.org/). All three members of the Council will be elected, at least one of which must be a member that has not been on the Council in the previous term.
+### Maintainers
 
-The Council also serves double duty as a mediator for disagreements between other teams. These shall be resolved by discussion, rather than by unanimous applications of the rules, so this is not in the purview of this document.
+The Maintainers team consists of all developers who have push access or technical rights (write permissions to a subproject's GitHub repository, or access to the Project's servers) to the NeoForge repository, and to all repositories not managed by a subteam (see below).
 
-However, the Council does not have all-encompassing powers. They are the avenue of last resort, and the vast majority of decisions should be made by the team in charge, not by the Steering Council.
+They are the ones keeping the repositories they are assigned up to date, and ensuring the quality and standards of the Project are upheld, as well as adding new features as the community comes to require them.
 
-The Council has these powers to resolve the 1% of exceptional situations, not the 99%.
+Though Maintainers may individually or collectively have different access rights across the project's many repositories, all Maintainers within the team are considered equal to each other with respect to their rights within the team's governance.
 
-#### Maintainers
+Maintainers may join the team through [application](https://links.neoforged.net/apply). The existing team will then evaluate the application based on their past contributions to the Project and their way of working with the Maintainers so far.
 
-The Maintainers team consists of all project developers who have push access or technical rights (Write permissions to a Project's GitHub repository, or access to the Project's servers) to the project's repositories or infrastructure.
+Maintainers have no jurisdiction or weight in moderating or managing the community, unless the Maintainer in question is also a Moderator.
 
-They are the ones keeping the Project's repositories up to date, and ensuring the quality and standards of the Project are upheld, as well as adding new features as the community comes to require them.
+### Moderators
 
-Though Maintainers may individually or collectively have different access rights across the project's many repositories or infrastructure services, all Maintainers within the team are considered equal to each other with respect to their rights within the team's governance.
+The Moderators team is composed of all moderators of all community spaces (GitHub, Discord) under the purview of the project.
 
-Maintainers may be appointed by other Maintainers, or by application from the person who wishes to join the team.
+They have the responsibility of enforcing the policies and rules of each space, as well as the Code of Conduct, and applying disciplinary sanctions to people who violate said rules. This mainly refers to the rules of interactions between people, and not so much to technical rules or guidelines.
 
-However, they have no jurisdiction or weight in moderating or managing the community, unless the Maintainer in question is also a Moderator.
-
-#### Moderators
-
-The Moderation team is composed of all moderators of all community spaces (GitHub, Discord) under the purview of the project.
-
-They have the responsibility of enforcing the policies and rules of each space, as well as the Code of Conduct, and applying disciplinary sanctions to people who violate said rules.
-
-Moderators may be appointed by the Steering Council, or by application from the person who wishes to join the team.
+Maintainers may join the team through [application](https://links.neoforged.net/apply). The existing team will then evaluate the application based on their past behavior in the Project's community spaces and their way of working with the community members so far.
 
 Unless a Moderator is also a Maintainer, they cannot influence technical decisions, but they can still express their opinion, just as any other person.
 
-## Other things to note
+### Subteams
+
+Any team member may request for the Steering Council to create a subteam for a specific subproject. People may be appointed to a subproject by the Steering Council, or join the subteam via [application](https://links.neoforged.net/apply), or both; whatever is seen fit for the subproject in question.
+
+Subteam members are part of the overall NeoForged team, and as such eligible to vote in project-wide decisions.
+
+### External Teams
+
+External teams are teams that are explicitly not part of the NeoForged project itself, but have been granted permission by the NeoForge team to use the project's spaces for their own external project's communication. This is usually because the external project is closely associated with the NeoForged Project in some way.
+
+External team members are not part of the NeoForged team and as such not permitted to vote in internal affairs. Depending on the external project's relevance to the NeoForged Project, access to internal team channels may or may not be granted.
+
+A notable external team is the team consisting of Mojang staff, which have great relevance to the Project due to developing Minecraft, which is the base software NeoForge modifies.
+
+## Other Things To Note
 
 Nobody is above the rules. All members of the team (even the Steering Council!) are to be held to these rules, with no exceptions granted for any individual or group.
