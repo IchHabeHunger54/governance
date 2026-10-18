@@ -90,13 +90,23 @@ b. The Project may set up a means for Members to donate money to the Project. Th
 
 > At the time of writing, this means lives at https://opencollective.com/neoforged.
 
-### Section 2: Payouts
+c. The Team may conduct a Vote among themselves to give away parts of the money received via the means defined in Section 1b to one or multiple Members whose contributions to the Project they deem worthy of compensation.
 
-a. The Team may conduct a Vote among themselves to give away parts of the money received via the means defined in Section 1b to one or multiple Members whose contributions to the Project they deem worthy of compensation.
+d. Team Members who would receive compensation may not participate in or initiate the Vote in point c.
 
-b. Team Members who would receive compensation may not participate in or initiate the Vote.
+### Section 2: Bounties
 
-c. If the Vote succeeds, the administrators (as defined in Section 1b) shall pay out the agreed-upon amount of money. If the vote fails, nothing should happen.
+a. The Team may conduct a Vote among themselves to put out a monetary reward for a certain task, a.k.a. a bounty. The bounty can be claimed by a Community Member by completing said task. It should be clearly outlined what constitutes completion of the task when putting out the bounty.
+
+> For example, a bounty may be to rework a certain part of the code. Completion of the bounty is given once an according pull request successfully undergoes the review and merging process.
+
+b. Bounties may be split among multiple people if multiple people contribute to its completion together. The split should be equal, but may be weighed if deemed appropriate by team members.
+
+> For example, two people working on a pull request together can each receive half of the bounty.
+
+c. Team Members are excluded from completing a bounty for the first 90 days after release. They may still perform the requested task, in which the bounty will be closed and the money will be paid out.
+
+> This rule is intended to prevent Team Members from claiming a bounty shortly after release. Please, for the love of god, make us not rules-lawyer this.
 
 [art2]: amending.md
 [art3§2.2]: teams.md#section-2-moderators
