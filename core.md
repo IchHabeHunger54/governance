@@ -3,7 +3,7 @@
 ## Terminology
 
 - The **Project** refers to the NeoForged Project as defined in [Article 1 § 1][art1§1].
-- The **Team**, if not qualified further, refers to the NeoForged team as defined in [Article 3 § 1][art3§1].
+- The **Team**, if not qualified further, refers to the NeoForged Team as defined in [Article 3 § 1a][art3§1].
 - The **Steering Council** refers to the Steering Council as defined in [Article 4][art4].
 - A **Team Member** is a user that is considered a member of the Team.
 - A **Community Member** is a user in a Community Space that is not also a Team Member.
@@ -15,8 +15,8 @@
 - (The) **GitHub** refers to the NeoForged GitHub account at https://github.com/neoforged, or all repositories hosted under it, as determined by context.
 - **NeoForge** is the main product of the Project that is made available to the general public.
 - (The) **Governance** refers to this repository, or its contents, as determined by context.
-- A **Vote** is a vote as defined in [Article 5 § 1][art5§1].
-- A **Supermajority Vote** is a Vote with special requirements as defined in [Article 5 § 2][art5§2].
+- A **Vote** is a vote as defined in [Article 5][art5]. Changes to the mode of voting may be applied by the surrounding context.
+- A **Supermajority Vote** is a Vote with special requirements as defined in [Article 5 § 3][art5§3]. Changes to the mode of voting may be applied by the surrounding context.
 
 ## Articles
 
@@ -29,5 +29,5 @@
 [art1§1]: general.md#-1-the-project
 [art3§1]: teams.md#-1-the-neoforged-team
 [art4]: steering-council.md
-[art5§1]: voting.md#-1-regular-votes
-[art5§2]: voting.md#-2-supermajority-votes
+[art5]: voting.md
+[art5§3]: voting.md#-3-supermajority-votes
