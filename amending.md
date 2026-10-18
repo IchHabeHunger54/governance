@@ -14,7 +14,7 @@ a. A thread in an internal Discord channel shall be created to discuss the propo
 
 b. Comments on the wording of the pull request may be given on the pull request directly.
 
-c. Once discussion has ended, a Supermajority Vote about the proposed changes among all Team Members shall be held. All Team Members shall be notified of the creation of the thread.
+c. Once discussion has ended, a Supermajority Vote about the proposed changes among all Team Members shall be held. All Team Members shall be notified of the initiation of the Vote.
 
 d. If the Supermajority Vote in point d succeeds, a member of the Steering Council shall merge the pull request. Otherwise, they or the original pull request opener shall close the pull request. All Team Members shall be notified of the result of the Supermajority Vote.
 
