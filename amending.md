@@ -20,9 +20,9 @@ d. If the Supermajority Vote in point d succeeds, a member of the Steering Counc
 
 ## § 3 Minor Changes
 
-a. If a proposed change to the Governance is minor enough, a member of the Steering Council may merge a pull request immediately, without going through the thread and voting procedure outlined in § 2. What constitutes a "minor enough change" is left to the discretion of the Steering Council.
+a. If a proposed change to the Governance is minor enough, a member of the Steering Council may merge a pull request immediately, without going through the thread and voting procedure outlined in § 2. A minor change is constituted by being a minor typographical, grammatical, structural or similarly small change; any changes to the meaning of the Governance shall go through § 2 instead.
 
-> The intention of this clause is to allow fixes of typographical or grammatical errors without notifying the entire team three whole times. Any changes to the meaning of the Governance should go through § 2 instead.
+> The intention of this clause is to allow fixes of typos or similar without notifying the entire team three whole times.
 
 b. A member of the Steering Council merging a pull request immediately (as outlined in point a) shall send a message about the merge in a Team space, however they are not required to notify all team members.
 
