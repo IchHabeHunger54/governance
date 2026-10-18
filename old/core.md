@@ -1,0 +1,96 @@
+# Governance of the NeoForged project
+
+The NeoForged project is split between [GitHub](https://github.com/NeoForged) and [Discord](https://discord.neoforged.net). It is a community of volunteers, maintaining a free and open source ecosystem of modifications to the Minecraft game.
+
+All contributors and team members are here for fun - our goal is to provide joy to the community, and to ourselves.
+
+We are here because it is fun, so this document ensures that the Project doesn't become so bureaucratic or so much of a chore that the fun is removed for anybody.
+
+### What this document is
+
+This document is:
+
+- A non-exhaustive list of the working principles of the project.
+- Intended to help guide the project in times of uncertainty.
+
+This document is built on the fundamental principle of "people generally want to help, so we should not get in the way of it".
+
+The core ethic is "people over processes", so this document is intentionally light on processes - situations that come up are rarely one-size-fits-all, and should be treated on a case by case basis, with the best process to fit the person.
+
+### What this document is not
+
+This document is not:
+
+- Intended to enforce rules on all members.
+- Intended to catch all possibilities.
+- Intended to prevent "rules lawyering".
+
+The Code of Conduct of the project is taken to be the content of [the Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/), so this document is not the Code of Conduct. However, this may be altered with a copy held and maintained by the Project, only with overwhelming majority support by the entire team.
+
+Conflict resolution is a duty split between the Moderators and Steering Council; the former for interpersonal disputes in and with the community, and the latter for development-related disputes in the Project itself. Either team may wish to append a section to this document, but currently, this document is not conflict resolution.
+
+## Definitions
+
+Following are some core definitions that will be referred to in the later sections of the document.
+
+### The Project
+
+"The Project" refers to The NeoForged project, with a presence on both GitHub and Discord, as noted at the start of this document. It does not refer to any specific repository or subproject.
+
+### Subprojects
+
+Subprojects are large tasks that the Project itself is undergoing.
+
+These may be:
+
+* Repositories under the Project's GitHub.
+* Large, multi-repository tasks that are being undertaken (ie. updating the API to a new version of the Game).
+* Smaller, more targetted tasks that are being undertaken (ie. refactoring the Modloader or API to remove or replace or rework a feature).
+
+### Teams
+
+The Project is split into three teams.
+
+A team is a group of people with similar goals, and equal weighting in most decision making - with some exceptions, which will be explored later.
+
+You may [apply to join some teams](https://links.neoforged.net/apply), but some require appointment from within an existing team, or further voting after application.
+
+Members may be removed from any of the teams in accordance with the [policy on removing members](removal.md).
+
+#### Steering Council
+
+The Steering Council ensures that members of a Team are in agreement regarding topics under the Team's purview. To that end, the Council can call for a vote if there is an on-going major dispute about a topic within the Team.
+
+In other words, when the Council is made aware of a situation, and if it decides (after a vote between the members of the Council) that the situation warrants the involvement of an entire Team, they can trigger a vote as described by the [voting rules](./voting.md). The sole responsibility of the Council is to enforce the outcome of the voting process. They cannot influence the vote but council members part of the relevant team can still participate in the voting process itself.
+
+The Steering Council has an odd number of active members at all times, such that stalemates are not possible. The members of the Steering Council are decided by an annual internal vote to ensure fairness and cycling of council members over time. Details on the Steering Council voting process can be found at [/steering-council-elections.md](/steering-council-elections.md).
+
+A member may choose to become inactive and appoint another Project team member in their place until they return, or their term expires, whichever is sooner. If a Steering Council member cannot be reached and a replacement is desired, a Steering Council election will be held in accordance with [/steering-council-elections.md](/steering-council-elections.md). The newly elected member(s) will now replace the Steering Council member in question until the next yearly election.
+
+The secondary role of the Steering Council is to apply the Inactivity Policy periodically. Full details on the policy are in the [/inactivity-policy.md](/inactivity-policy.md).
+
+#### Maintainers
+
+The Maintainers team consists of all project developers who have push access or technical rights (Write permissions to a Project's GitHub repository, or access to the Project's servers) to the project's repositories or infrastructure.
+
+They are the ones keeping the Project's repositories up to date, and ensuring the quality and standards of the Project are upheld, as well as adding new features as the community comes to require them.
+
+Though Maintainers may individually or collectively have different access rights across the project's many repositories or infrastructure services, all Maintainers within the team are considered equal to each other with respect to their rights within the team's governance.
+
+Maintainers may be appointed by other Maintainers, or by application from the person who wishes to join the team.
+
+However, they have no jurisdiction or weight in moderating or managing the community, unless the Maintainer in question is also a Moderator.
+
+#### Moderators
+
+The Moderation team is composed of all moderators of all community spaces (GitHub, Discord) under the purview of the project.
+
+They have the responsibility of enforcing the policies and rules of each space, as well as the Code of Conduct, and applying disciplinary sanctions to people who violate said rules.
+
+Moderators may be appointed by the Steering Council, or by application from the person who wishes to join the team.
+
+Unless a Moderator is also a Maintainer, they cannot influence technical decisions, but they can still express their opinion, just as any other person.
+
+## Other things to note
+
+Nobody is above the rules. All members of the team (even the Steering Council!) are to be held to these rules, with no exceptions granted for any individual or group.
