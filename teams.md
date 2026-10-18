@@ -1,1 +1,3 @@
-# Article 4: Teams
+# Article 3: Teams
+
+TODO
