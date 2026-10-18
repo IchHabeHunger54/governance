@@ -74,7 +74,7 @@ b. Members shall report violations of Section 1 via a means provided to them by 
 
 ## § 6 Enforcement
 
-a. If needed, the Governance shall be enforced by the Moderators team (as defined by [Art 3][art3]) or the Steering Council, depending on the situation that requires enforcement.
+a. If needed, the Governance shall be enforced by the Moderators team (as defined by [Art 3 § 2.2][art3§2.2]) or the Steering Council, depending on the situation that requires enforcement.
 
 b. The Moderators team shall enforce § 5.1 on Community Members.
 
@@ -82,13 +82,23 @@ c. The Steering Council shall enforce the Governance in all other situations, in
 
 ## § 7 Compensation
 
+### Section 1: Donations
+
 a. No Member is entitled to financial or material compensation for their contributions to the Project.
 
-b. The Project may set up a means for Members to donate money to the Project.
+b. The Project may set up a means for Members to donate money to the Project. The Steering Council should be, or appoint from the Team, its administrators.
 
 > At the time of writing, this means lives at https://opencollective.com/neoforged.
 
-c. The Team may vote to give away parts of the donated money from point b to one or multiple Members whose contributions to the Project they deem worthy of compensation, in accordance with [Art 5][art5]. Team Members who would receive compensation may not participate in or initiate the vote.
+### Section 2: Payouts
+
+a. The Team may conduct a Vote among themselves to give away parts of the money received via the means defined in Section 1b to one or multiple Members whose contributions to the Project they deem worthy of compensation.
+
+b. Team Members who would receive compensation may not participate in or initiate the Vote.
+
+c. If the Vote succeeds, the administrators (as defined in Section 1b) shall pay out the agreed-upon amount of money. If the vote fails, nothing should happen.
 
 [art2]: amending.md
+[art3§2.2]: teams.md#section-2-moderators
+[art5§1]: voting.md#-1-regular-votes
 [contributorcovenant]: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
